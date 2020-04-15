@@ -332,7 +332,6 @@ fun! pencil#init(...) abort
 
   " window/buffer settings
   if b:pencil_wrap_mode
-    setl nolist
     setl wrapmargin=0
     setl autoindent         " needed by formatoptions=n
     setl indentexpr=
@@ -380,7 +379,6 @@ fun! pencil#init(...) abort
 
     setl indentexpr<
     setl autoindent< noautoindent<
-    setl list< nolist<
     setl wrapmargin<
     setl formatoptions<
   en
